@@ -1,0 +1,115 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Organiza em colunas */
+    gap: 15px; /* Espaço entre os cards */
+  }
+  
+  li {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .barra-busca {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .barra-busca form {
+    position: relative;
+  }
+  
+  .barra-busca form input {
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 40px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .barra-busca form button {
+    height: 43px;
+    width: 48px;
+    background-color: #047f04;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: rgb(3, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .barra-busca form button:hover {
+    background-color: #02026d;
+  }
+  
+  .carregando {
+    text-align: center;
+  }
+  
+  .cartao-pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #7cd07f; 
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cartao-pokemon img {
+    width: 130px;
+    height: 110px;
+    margin-bottom: 10px;
+  }
+  
+  .imagem-pokemon img {
+    width: 130px;
+    height: 110px;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  
+.logo-pokemon {
+    position: absolute; 
+    top: 25px;         
+    left: 25px;        
+    width: 115px;        
+    height: auto;
+  }
+  
+  
